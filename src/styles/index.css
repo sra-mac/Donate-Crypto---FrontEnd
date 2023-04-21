@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Lexend:wght@300;400;700&display=swap');
+
+body{
+    background: #ecf0fb;
+}
+h1{
+    color: #233d6e;
+    font-size: 10rem;
+    position: absolute;
+    font-family: "Lexend";
+    text-shadow: 5px 5px 6px #819ab5;
+}
+
+.global-background{
+    width: 79vw;
+    height: 90vh;
+    position: absolute;
+}
+
+
+.col-lg-6:nth-child(3){
+    margin-top: 20%;
+    /* background: #2d6e; */
+    font-family: "Inria Serif";
+    text-shadow: 3px 3px 6px #819ab5;
+    font-size: 1.6rem;
+    color: #233d6e;
+    font-weight: 500;
+}
+
+button.btn.btn-primary.btn-lg.px-4.me-md-2 {
+    background: #325c8c;
+    border-radius: 50px;
+    margin-top: 20%;
+    font-family: "Lexend";
+    font-weight: 700;
+}
+
+.icon_button{
+    width: 13vw;
+    height: 20vh;
+}
+
+img.icon_button {
+    /* background: aqua; */
+    /* margin: 0 0 0 0; */
+    left: 37%;
+    bottom: 12.5%;
+    position: absolute;
+}
+/* #325c8c */
