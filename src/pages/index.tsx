@@ -50,12 +50,12 @@ export default function Home() {
             <p className="mb-3">Autentique-se com sua carteira, crie sua campanha ou doe para campanhas existentes.</p>
             {!wallet ?(
               
-              <div className='row flex align-items-center'>
+              <div className='flex align-items-center button-start'>
                 <button className="btn btn-primary btn-lg px-4 me-md-2 col-8" type='button' onClick={btnLoginClick}>
                   <img src="/metamask.svg" width={64} className='me-3' alt="Clique no botão para doar" />
                   Conectar com a Metamask
                 </button>
-                <img src="/image/icon-button.png" className='icon_button col-4' alt="" />
+                <img src="/image/icon-button.png" className='icon_button col-4 px-4 me-md-2' alt="" />
               </div>
             ):<></>
             }

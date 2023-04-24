@@ -41,11 +41,18 @@ button.btn.btn-primary.btn-lg.px-4.me-md-2 {
     height: 20vh;
 }
 
-img.icon_button {
-    /* background: aqua; */
-    /* margin: 0 0 0 0; */
-    left: 37%;
-    bottom: 12.5%;
-    position: absolute;
+.button-start{
+    display: flex;
+}
+.icon_button {
+    width: 280px;
+    height: 200px;
+    position: relative;
+    left: -60px;
+    bottom: -100px;
+}
+
+img.icon_button.col-4.px-4.me-md-2 {
+    filter: invert(31%) sepia(70%) saturate(420%) hue-rotate(170deg) brightness(94%) contrast(94%);
 }
 /* #325c8c */
