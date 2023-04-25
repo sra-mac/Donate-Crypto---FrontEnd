@@ -15,6 +15,7 @@ h1{
     width: 79vw;
     height: 90vh;
     position: absolute;
+    z-index: -1;
 }
 
 
@@ -36,11 +37,6 @@ button.btn.btn-primary.btn-lg.px-4.me-md-2 {
     font-weight: 700;
 }
 
-.icon_button{
-    width: 13vw;
-    height: 20vh;
-}
-
 .button-start{
     display: flex;
 }
@@ -55,4 +51,3 @@ button.btn.btn-primary.btn-lg.px-4.me-md-2 {
 img.icon_button.col-4.px-4.me-md-2 {
     filter: invert(31%) sepia(70%) saturate(420%) hue-rotate(170deg) brightness(94%) contrast(94%);
 }
-/* #325c8c */

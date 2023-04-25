@@ -1,0 +1,66 @@
+
+@media(max-width: 1200px){
+    
+    h1{
+        color: #233d6e;
+        font-size: 3rem;
+        font-family: "Lexend";
+        text-shadow: 5px 5px 6px #819ab5;
+    }
+
+    .global-background{
+        width: 160vw;
+        height: 50vh;
+        position: absolute;
+        z-index: -1;
+        top: 10rem;
+        left: -60px;
+    }
+
+
+    .col-lg-6:nth-child(3){
+        margin-top: 10rem;
+        /* background: #2d6e; */
+        font-family: "Inria Serif";
+        text-shadow: 3px 3px 6px #819ab5;
+        font-size: 0.9rem;
+        color: #233d6e;
+        font-weight: 500;
+    }
+
+    button.btn.btn-primary.btn-lg.px-4.me-md-2 {
+        background: #325c8c;
+        border-radius: 50px;
+        margin-top: 20%;
+        font-family: "Lexend";
+        font-weight: 700;
+        width: 50vw;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .me-3{
+        /* width: 8vw;
+        position: absolute;
+        left: 35px; */
+        /* background-color: green; */
+        /* height: 3vh; */
+        display: none;
+    }
+
+
+    .button-start{
+        display: flex;
+        align-items: center;
+        /* background: red; */
+    }
+    .icon_button {
+        width: 120px;
+        height: 80px;
+        /* width: 30vw;
+        height: 10vh; */
+        position: relative;
+        left: -35px;
+        bottom: -3rem;
+    }
+    
+}
